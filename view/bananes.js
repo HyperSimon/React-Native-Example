@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, Image, View } from 'react-native';
 
-class Bananas extends Component {
+export default class Bananas extends Component {
     render() {
         let pic = {
             uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
