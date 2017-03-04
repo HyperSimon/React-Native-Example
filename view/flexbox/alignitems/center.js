@@ -24,6 +24,7 @@ export default class AlignCenter extends Component {
           backgroundColor: 'white',
           flexDirection: 'row',
           alignItems: 'center', /*可以决定其子元素沿着次轴（与主轴垂直的轴，比如若主轴方向为row，则次轴方向为column）的排列方式。*/
+          justifyContent: 'center'
         } }>
           <View style={{ width: 35, height: 35, backgroundColor: 'powderblue' }}/>
           <View style={{ width: 35, height: 35, backgroundColor: 'black' }}>
@@ -36,7 +37,8 @@ export default class AlignCenter extends Component {
           flex: 1,
           backgroundColor: 'purple',
           flexDirection: 'column', // 决定改控件的排列方式，row -> 水平排列， column -> 垂直排列
-          alignItems: 'center' // 决定了该空间在父控件的位置
+          alignItems: 'center', // 决定了该空间在父控件的位置
+          justifyContent: 'center'
         } }>
           <View style={{ width: 35, height: 35, backgroundColor: 'powderblue' }}/>
           <View style={{ width: 35, height: 35, backgroundColor: 'black' }}>

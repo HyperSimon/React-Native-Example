@@ -24,6 +24,7 @@ export default class AlignFlexEnd extends Component {
           backgroundColor: 'white',
           flexDirection: 'row',
           alignItems: 'flex-end', /*可以决定其子元素沿着次轴（与主轴垂直的轴，比如若主轴方向为row，则次轴方向为column）的排列方式。*/
+          justifyContent: 'flex-end'
         } }>
           <View style={{ width: 35, height: 35, backgroundColor: 'powderblue' }}/>
           <View style={{ width: 35, height: 35, backgroundColor: 'black' }}>
