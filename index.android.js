@@ -10,6 +10,7 @@ import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 import JustifySummary from './view/flexbox/justify/justify-summary'
 import DirectionSummary from './view/flexbox/direction/direction-summary'
 import AlignSummary from './view/flexbox/alignitems/align-summary'
+import PizzaTranslator from './view/textInput'
 
 // 后面的属性会覆盖前面的同名属性，以此可以达到继承的目的
 class MainView extends Component {
@@ -18,7 +19,8 @@ class MainView extends Component {
       <View style={{ flex: 1 }}>
         {/*<JustifySummary />*/}
         {/*<DirectionSummary/>*/}
-        <AlignSummary/>
+        {/*<AlignSummary/>*/}
+        <PizzaTranslator/>
       </View>
     );
   }
